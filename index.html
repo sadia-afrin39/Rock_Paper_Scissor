@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<title>Rock Paper Scissors Game</title>
+        <!-- <link rel='shortcut icon' type='image/x-icon' href='resources/img/favicon.png'>   -->
+		<meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <meta name="description" content="Rock Paper Scissors Game with js">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--for ie & edge support -->
+		<meta name="author" content="Sadia Afrin Tarin">
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+		
+		<!--<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/> used for animation on scroll-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<!--<script src="../travelBD/js/all.min.js"></script>-->
+		<!--<script src="Prefix_Free.js"></script>   if js not supported in browser-->
+		<!--<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel='stylesheet'>-->	
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href= "style.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	</head>
+	
+	<body>
+        <header>
+           <h1>Rock Paper Scissors</h1> 
+        </header>
+        
+        <div class="score-board">
+            <div class="badge" id="user-label">user</div>
+            <div class="badge" id="computer-label">comp</div>
+            <span id='user-score'>0</span>:<span id='computer-score'>0</span>
+        </div>
+        
+        <div class="result">
+            <p>Paper covers rock. You win!</p>
+        </div>
+        
+        <div class="choices">
+            <div class="choice" id="r" >
+                <img src="images/rock.jpg" alt="">
+            </div>
+            <div class="choice" id="p">
+                <img src="images/paper.jpg" alt="">
+            </div>
+            <div class="choice" id="s">
+                <img src="images/scissor.jpg" alt="">
+            </div>
+        </div>
+        
+        <p id="action-move">Make your move</p>
+        
+        <script src= "main.js" defer></script>  <!--use defer to load js after the body of html-->
+    </body>
+</html>
